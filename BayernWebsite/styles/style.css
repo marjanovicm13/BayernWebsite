@@ -1,0 +1,320 @@
+﻿body{
+    background-color: rgb(190, 189, 189);
+    height:100vh; margin:0; 
+    display:flex; 
+    flex-direction:column; 
+}
+
+p{
+    color: black;
+}
+
+li a {
+        display: block;
+        color: lightgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: bold
+    }
+
+
+li a:hover {
+      background-color: navy;
+      color: red;
+ }
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+.HomeCaption{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+}
+
+.navbar.navbar-expand-lg.navbar-dark a{
+    background-color: maroon;
+    color:lightgray;
+    border-color: black;
+}
+
+.navbar.navbar-expand-lg.navbar-dark .collapse.navbar-collapse .navbar-nav .nav-item a:hover {
+    background-color: #0066b2;
+}
+
+.navbar.navbar-expand-lg.navbar-dark{
+    background-color: maroon;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: darkslategrey;
+  color: white;
+  left:0;
+  bottom: 0;
+  clear: both;
+  margin-top:auto; 
+}
+
+section.Other.related.websites {
+    padding: 10px;
+    margin: 5px;
+}
+
+section.Other.related.websites a {
+    color:maroon;
+}
+
+section.Other.related.websites a:hover {
+    color:maroon;
+    font-size: large;
+}
+
+section.Triple a:hover img{
+    transform: scale(1.05);
+}
+
+.table.table-hover.table-dark thead th, tbody tr td{
+    color: white;
+} 
+
+
+.table.table-hover.table-dark tbody tr td a{
+    display: inline-block;
+    color: white;   
+}
+
+.table.table-hover.table-dark tbody tr:hover{
+    background: #0066b2;
+}
+  
+tr.Goalkeepers {
+ background-color: whitesmoke;
+ color: maroon;
+ text-align: center;
+
+
+}
+
+tr.Defenders {
+    background-color: maroon;
+    text-align: center;
+}
+
+tr.Midfielders {
+    background-color: whitesmoke;
+    color: maroon;
+     text-align: center;
+}
+
+tr.Forwards {
+    background-color: maroon;
+    text-align: center;
+}
+
+.history1 {
+    float: right;
+    padding-right:5px;
+}
+
+.historyText1{
+    padding-left: 5px;
+
+    margin: 5px;
+}
+
+.historyText2{
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.historyText3{
+    padding-left: 5px;
+
+    margin: 5px;
+}
+
+.history2 {
+    float: right;
+    padding-right:5px;
+    height: 190px;
+    width: 180px;
+}
+
+.history3 {
+    float: left;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 160px;
+    width: 180px;
+}
+
+.history4 {
+    float: left;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 160px;
+    width: 280px;
+}
+
+.history5 {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 260px;
+    width: 220px;
+}
+
+.history6    {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 260px;
+    width: 220px;
+    padding-bottom: 5px;
+}
+
+.croatia1    {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 190px;
+    width: 170px;
+    padding-bottom: 5px;
+}
+
+.croatiaText{
+    padding-left: 5px;
+
+    margin: 5px;
+}
+
+.croatia2    {
+    float: left;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 190px;
+    width: 170px;
+    padding-bottom: 5px;
+}
+
+.croatia3    {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 190px;
+    width: 170px;
+    padding-bottom: 5px;
+}
+
+.croatia4    {
+    float: left;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 150px;
+    width: 130px;
+    padding-bottom: 5px;
+}
+
+.croatia5    {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 150px;
+    width: 130px;
+    padding-bottom: 5px;
+}
+
+.croatia6    {
+    float: left;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 150px;
+    width: 190px;
+    padding-bottom: 5px;
+}
+
+.croatia7    {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 180px;
+    width: 170px;
+    padding-bottom: 5px;
+}
+
+.croatia8    {
+    float: left;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 160px;
+    width: 220px;
+    padding-bottom: 5px;
+}
+
+.croatia9    {
+    float: right;
+    padding-left:5px;
+    padding-right: 5px;
+    height: 230px;
+    width: 180px;
+    padding-bottom: 5px;
+}
+
+.lightbox-gallery {
+    background-image: linear-gradient(#4A148C, #E53935);
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+}
+
+.lightbox-gallery p {
+    color: #fff
+}
+
+.lightbox-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: #fff
+}
+
+@media (max-width:767px) {
+    .lightbox-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+
+.lightbox-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px
+}
+
+.lightbox-gallery .intro p {
+    margin-bottom: 0
+}
+
+.lightbox-gallery .photos {
+    padding-bottom: 20px
+}
+
+.lightbox-gallery .item {
+    padding-bottom: 30px
+}
+
+.photo-gallery .img-fluid{
+    width: 220px;
+    height: 150px;
+    margin: 5px;
+}
+  
